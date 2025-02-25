@@ -1,0 +1,30 @@
+.container{
+display: flex;
+gap: 15px;
+text-align: center;
+}
+.box{
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: 1s;
+}
+.box:hover{
+    background-color: aqua;
+    border-radius: 50%;
+    transform: rotate(360deg);
+
+    
+}
+h1{
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+}
+p{
+    border: 2px solid yellow;
+    color: orange;
+    background-color: yellow;
+    border-radius: 7px;
+}
